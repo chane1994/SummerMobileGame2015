@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\SummerProject2015.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{B6CE03E6-655B-43CF-AEA0-D37238EFCB8B}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\SummerProject2015.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\SummerProject2015Editor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{51100600-9534-40BB-AB6B-E2AA55E13109}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\SummerProject2015">
+			<UniqueIdentifier>{97BE5E92-2C93-47FE-BB24-08F602BC7B70}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\SummerProject2015\SummerProject2015.Build.cs">
+			<Filter>Source\SummerProject2015</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\SummerProject2015\SummerProject2015.cpp">
+			<Filter>Source\SummerProject2015</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SummerProject2015\SummerProject2015.h">
+			<Filter>Source\SummerProject2015</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\SummerProject2015\SummerProject2015GameMode.cpp">
+			<Filter>Source\SummerProject2015</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SummerProject2015\SummerProject2015GameMode.h">
+			<Filter>Source\SummerProject2015</Filter>
+		</ClInclude >
+		<Filter Include="Source\SummerProject2015\Resources">
+			<UniqueIdentifier>{1662FC5F-2726-461E-958B-B15EDEC276A2}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\SummerProject2015\Resources\Windows">
+			<UniqueIdentifier>{2F338581-42E7-495C-8FC1-A264CDD98278}</UniqueIdentifier>
+		</Filter>
+		<ResourceCompile Include="..\..\Source\SummerProject2015\Resources\Windows\SummerProject2015.rc">
+			<Filter>Source\SummerProject2015\Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>
